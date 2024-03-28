@@ -1,0 +1,68 @@
+.payment-form-container {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: rgb(223, 255, 207); */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(42, 42, 42, 0.174);
+  }
+  
+  .payment-form-container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form-container-input{
+    width: 600px;
+    padding: 20px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 10px rgba(42, 42, 42, 0.174); */
+  }
+
+  .payment-form-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(75, 75, 75, 0.174);
+  }
+  .payment-form-container button {
+    float: right;
+    width: 200px;
+    padding: 10px;
+    background-color: #32d405;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px rgba(67, 67, 67, 0.174);
+  }
+  
+  
+.paymentlabel{
+    font-size: 23px;
+    font-weight: 600;
+    color: #2ab200;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  .payment-form-container button:hover {
+    background-color: #34c703;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.281);
+  }
+  
+  .payment-form-container button:active {
+    background-color: #10eb00;
+  }
+  

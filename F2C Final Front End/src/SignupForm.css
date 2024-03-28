@@ -1,0 +1,272 @@
+/* .SignupForm {
+    width: 100px;
+    max-width: 50px;
+    margin-top: 40px;
+    /* margin: 0 auto; 
+    margin-left: 430px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+  } */
+
+/* 
+  .container {
+    width: 850px;
+    height: 570px; */
+    /* max-width: 800px; */
+    /* margin: 0 auto; */
+    /* margin-left: 230px;
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+  }
+  
+  .SignupForm {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+  }
+  
+  .SignupForm h2 {
+    /* margin-left: 370px; 
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .SignupForm input,
+  .SignupForm select {
+    width: 200px;
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 8px;
+  } 
+  /* .SignupForm input{ */
+    
+    /* margin-right: 10px; */
+    /* margin-bottom: 13px;
+  }
+  .SignupForm select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+    
+    margin-bottom: 18px;
+  }
+  
+  .SignupForm button {
+    width: 200px;
+    background-color: #10a126;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 120px;
+  }
+  
+  .SignupForm .custom-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 16 16' fill='%23ccc' xmlns='http://www.w3.org/2000/svg'><polygon points='12 2 4 8 12 14'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+  } */
+  
+  /* New CSS */
+  
+  /* .SignupForm .left-column {
+    grid-column: 1;
+  }
+  
+  .SignupForm .right-column {
+    grid-column: 2;
+  }
+  .rightcolumn input,select{
+    margin-left: -160px;
+  }
+  .rightcolumn label{
+    margin-left: -160px;
+  } */
+
+  /* .signupcontainer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 125%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+  }
+  
+  .SignupForm {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 30px;
+    align-items: center;
+  }
+  
+  h2.signuph2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -20px;
+   
+  }
+  
+  .SignupForm input,
+  .SignupForm select {
+    width: 100%;
+    border: 1px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 8px;
+   
+  }
+  .rightcolumn select {
+    margin-left: -40px;
+  }
+  
+ button.signupbutton {
+    width: 200px;
+  background-color: #10a126;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  grid-column: 2 / 3;
+  justify-self: center;
+  margin-top: auto;
+  }
+  
+  .SignupForm .custom-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 16 16' fill='%23ccc' xmlns='http://www.w3.org/2000/svg'><polygon points='12 2 4 8 12 14'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+  }
+  
+
+  
+  .SignupForm .left-column {
+    grid-column: 1;
+  }
+  
+  .SignupForm .right-column {
+    grid-column: 2;
+  }
+
+  .SignupForm input {
+    width: 100%;
+  }
+  
+
+   */
+
+   .signupcontainer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 125%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.2);
+  }
+  
+  form.SignupForm {
+    display: grid; /* New CSS */
+    margin-left: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 30px;
+    align-items: center;
+  }
+  
+  h2.signuph2 {
+    text-align: center;
+    color: #039619;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-weight: 600;
+    /* margin-left: -20px; */
+  }
+  
+ input.signupforminputtag,
+  select.signup-custom-dropdown {
+    width: 100%;
+    border: 2px solid #bdbdbd;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .rightcolumn select.signup-custom-dropdown {
+    margin-left: 0px;
+
+  }
+
+  .signupbuttondiv {
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    grid-column: 2;
+  }
+
+  .signupbutton {
+    /* margin-right: 40px; */
+    margin-top: 10px;
+    width: 150px;
+    background-color: #10a126;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  
+    /* New CSS */
+    
+  }
+  label.signupformlabel{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+  }
+  .SignupForm select.signup-custom-dropdown {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 16 16' fill='%23ccc' xmlns='http://www.w3.org/2000/svg'><polygon points='12 2 4 8 12 14'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 16px 16px;
+    
+  }
+  
+  /* New CSS */
+  
+  .SignupForm .left-column {
+    grid-column: 1;
+  }
+  
+  .SignupForm .right-column {
+    grid-column: 2;
+  }
+  
+  /* .signupbuttondiv {
+    display: grid;
+    justify-content: center;
+  } */
+  .SignupForm input {
+    width: 100%;
+  }

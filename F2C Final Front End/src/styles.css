@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+h2 {
+  font-size: 35px;
+   /* Adjust the font size */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+  font-weight: 500;
+  color: rgb(0, 150, 0);
+  margin-bottom: 20px;
+}
+
+button.addfarmbutton[type="submit"] {
+  width: 100%; /* Make the button take full width of the column */
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #00b815;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}

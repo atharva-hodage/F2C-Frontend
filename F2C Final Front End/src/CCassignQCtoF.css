@@ -1,0 +1,39 @@
+.CCassignQCsuccesscontainer{
+    width: 700px;
+    padding: 20px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.CCassignQCsuccessh1{
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.CCassignQCsuccess-message{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(2, 205, 6);
+}
+
+.button-CCassignQC {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(16, 199, 3);
+    box-shadow: 0 0 10px rgba(47, 47, 47, 0.13);
+  }
+
+  .button-CCassignQC:hover{
+    background-color: rgb(21, 219, 7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  } 

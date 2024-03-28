@@ -1,0 +1,77 @@
+
+.single-request-details {
+  position: relative;
+  top: 100px;
+    width: 600px;
+   background-color: #ffffff;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+  }
+  
+  .single-request-details h1.qcview-detailsh1 {
+    text-align: center;
+    font-size: 24px;
+    /* font-weight: bold; */
+    margin-bottom: 30px;
+    color: #0170d1;
+    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+ ;
+  }
+  
+  .single-request-details p {
+    color: #21c800;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  .single-request-details strong.qcview-detailsstrong {
+    font-weight: bold;
+    color: #0170d1;
+    font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+ 
+  }
+  /* Style the container */
+.single-request-details {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+/* .single-request-details h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+} */
+
+/* Style the response box */
+.response-box {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style the response paragraphs */
+.response-paragraph {
+  margin: 15px 0;
+  font-weight: bold;
+}
+.response-paragraph:nth-child(n+2) {
+  margin-top: 10px;
+}
+
+.qcview-detail-value{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #5c5c5c;
+}

@@ -1,0 +1,152 @@
+.custom-toast {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+/* 
+.h1ccviewqcfreeloc,
+.search-barccviewqcfreeloc,
+.button-barccviewqcfreeloc {
+  position: sticky;
+  top: 0;
+} */
+
+.h1tagandinputbutton {
+  width: 100%;
+  padding: 10px;
+  height: 130px;
+  border-radius: 15px;
+  
+  background-color: #e0f2ff;
+  position: sticky;
+  top: 0;
+}
+
+
+/* Add this to give some padding to the top of the search bar and everything else above */
+/* .h1ccviewqcfreeloc,
+.search-barccviewqcfreeloc,
+.button-barccviewqcfreeloc {
+  padding-top: 20px;
+} */
+
+.containerccviewqcfreeloc{
+  position: relative;
+  top:45px;
+  right: 70px;
+  width: 120%;
+  padding: 20px;
+  height: 570px;
+  overflow-y: scroll;
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+}
+
+
+
+
+.ccviewqcreqlisttable{
+  width: 98%;
+  border-radius: 10px;
+}
+
+thead.ccviewqcreqlistthead th{
+  background-color: #ffffff;
+  color: #6b6b6b;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 1.5px solid #e1e1e1;
+  position: sticky;
+  top: 120px;
+  
+}
+
+.h1ccviewqcfreeloc{
+ font-size: 25px;
+ font-weight: 600;
+ color: #0374ba;
+ font-family: 'Poppins', sans-serif;
+ margin-bottom: 20px;
+}
+.search-barccviewqcfreeloc{
+  width: 83%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 35px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.barccviewqcfreeloctbody td{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #5c5c5c;
+}
+.button-barccviewqcfreeloc{
+  width: 90px;
+  margin-left: 10px;
+  height: 43px;
+ 
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background-color: #279eff;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(49, 49, 49, 0.116);
+}
+.top-navigation {
+  background-color:#06c523; /* Change to your desired background color */
+  color: #ffffff; /* Change to your desired text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-barccviewqcfreeloc:hover{
+  background-color: #ffffff;
+  color: #0386de;
+  box-shadow: 0 0 10px rgba(8, 8, 8, 0.128);
+}
+
+.ccprofile-button{
+ background-color: #279eff;
+ color: #fff;
+ border-radius: 20%;
+ /* padding: 10px; */
+  /* width: 40px; */
+}
+.profile-icon {
+  font-size: 1.25em; /* Increase the icon size */
+}
+.table-container {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* border-collapse: collapse; */
+  }
+ 
+  .table-container th, .table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-container th {
+    background-color: #05d10c; /* Green for agriculture */
+    color: #fff; /* White text for contrast */
+  }
+  
+  .table-container tr:nth-child(odd) {
+    background-color: #E8F5E9; /* Light green for odd rows */
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #fff; /* White for even rows */
+  }
+  
+  .table-container tr:hover {
+    background-color: #C8E6C9; /* Hover color, slightly darker green */
+  }
+  

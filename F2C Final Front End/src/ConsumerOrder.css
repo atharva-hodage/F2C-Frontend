@@ -1,0 +1,80 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    background-color: #f2f2f2; /* Background color for the whole page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+.order-container {
+  width: 700px;
+  height: 500px;
+    background-color: #fff; /* Background color for the container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(42, 42, 42, 0.174);
+    text-align: center;
+    position: relative;
+    top: 90px;
+  }
+
+div.orderdetailsdiv{
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 15px;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(48, 48, 48, 0.158);
+}
+
+  .order-container p{
+    font-size: 17px;
+    margin: 10px 0;
+    text-align: left;
+    color: #6b6b6b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  .order-summary {
+    font-size: 30px; /* Larger font size for summary heading */
+    color: white;
+    background-color: #0014c4; /* Background color for heading */
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .loading {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .empty-order {
+    font-weight: bold;
+    color: #f00;
+  }
+  .payment-button {
+    background-color: #0630bc; /* Green button color */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 5px 10px rgba(1, 1, 1, 0.158);
+}
+
+.payment-button:hover{
+  background-color: #072ef0; 
+  box-shadow: 0 3px 8px rgba(1, 1, 1, 0.32);
+}

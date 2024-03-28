@@ -1,0 +1,248 @@
+.allocfarmerrequestcontainer {
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 106%;
+  height: 530px;
+ padding: 0px;
+
+ /* margin-left: 18px;
+ margin-right: 20px; */
+ background-color: #ffffff;
+ position: sticky;
+ top: 0;
+ 
+ overflow-y: scroll;
+ 
+}
+.allocfarmerrequestdivcontainer{
+position: relative;
+ top: 80px;
+ right: 10px;
+}
+
+.request-table {
+  /* border-collapse: collapse; */
+  width: 97%;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.requesttablethead{
+position: sticky;
+top: 0;
+height: 55px;
+
+}
+
+.allocfarmerrequesth2{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #404040;
+ 
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+
+  
+
+  
+}
+
+
+
+
+.request-table th,
+.request-table td {
+  /* border: 1px solid #ccc; */
+/* color: #ffffff; */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.request-table th {
+  background-color: #4a4a4a;
+
+  /* margin-left: 5px; */
+}
+.request-table td{
+  color: #5d5d5d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.request-table tr:nth-child(even) {
+ 
+  background-color: #fafafa;
+}
+
+.request-table tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.qcdetailsviewbutton {
+  width: 100%;
+  /* margin-right: 15px; */
+  margin-left: 0px;
+  background-color: #1a8cf0;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+ 
+}
+
+
+.qcdetailsviewbutton:hover {
+  background-color: #075fe4;
+}
+
+.allocfarmerrequestdivcontainer button.qcdetailsdeletebutton{
+  background-color: #1a8cf0;
+  color: #ffffff;
+}
+
+
+/* 
+.allocreqbutton{
+  background-color: #1a8cf0;
+  color: #ffffff;
+  font-weight: 600;
+} */
+
+
+
+ /* For Search bar */
+ .h1ccviewqcfreeloc{
+  font-size: 25px;
+  font-weight: 600;
+  color: #0374ba;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+ }
+ .search-barqcviewqcfreeloc{
+   width: 68%;
+   height: 40px;
+   padding: 10px;
+   border-radius: 8px;
+   margin-left: 30px;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+ }
+
+
+ .button-barccviewqcfreeloc{
+  width: 90px;
+  margin-left: 10px;
+  height: 43px;
+ 
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  background-color: #279eff;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(49, 49, 49, 0.116);
+}
+
+
+
+
+/* Add these styles for the sort button and dropdown */
+.sort-container {
+display: inline-block;
+position: relative;
+}
+
+
+.sort-button {
+width: 90px;
+height: 43px;
+margin-left: 10px;
+border-radius: 10px;
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+background-color: #279eff;
+color: #fff;
+box-shadow: 0 0 10px rgba(49, 49, 49, 0.116);
+}
+
+
+.dropdown {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+z-index: 1;
+}
+
+
+.sort-container:hover .dropdown {
+display: block;
+}
+
+
+.dropbtn {
+background-color: #279eff;
+color: #fff;
+padding: 10px;
+border-radius: 8px;
+cursor: pointer;
+}
+
+
+.dropdown-content button {
+display: block;
+width: 100%;
+padding: 10px;
+text-align: left;
+border: none;
+background-color: inherit;
+cursor: pointer;
+}
+
+
+.dropdown-content button:hover {
+background-color: #ddd;
+}
+
+
+.h1tagandinputbuttonQC {
+width: 100%;
+padding: 10px;
+height: 130px;
+border-radius: 15px;
+
+background-color: #e0f2ff;
+position: sticky;
+top: 0;
+}
+
+/* Add the following CSS to your existing styles */
+
+
+.request-table th[data-sortable] {
+position: relative;
+cursor: pointer;
+}
+
+
+.request-table th[data-sortable]::after {
+content: '';
+display: inline-block;
+width: 0;
+height: 0;
+border-left: 6px solid transparent;
+border-right: 6px solid transparent;
+position: absolute;
+right: 6px;
+}
+
+
+.request-table th[data-sortable][data-order="asc"]::after {
+border-bottom: 8px solid #e9c2c2; /* Change the color if needed */
+}
+
+
+.request-table th[data-sortable][data-order="desc"]::after {
+border-top: 8px solid #e9c2c2; /* Change the color if needed */
+}

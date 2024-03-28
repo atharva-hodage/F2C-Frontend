@@ -1,0 +1,128 @@
+.verifyph-container {
+    width: 480px;
+  height: 370px;
+ background-color: #ffff;
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+h2#verifyphone{
+    margin-top: -50px;
+    margin-left: -10px;
+    font-size: 33px;
+    color: rgb(28, 173, 40);
+}
+  
+  form.verifyphoneform {
+    margin-top: -10px;
+    
+  }
+  
+ 
+  input.verifyphoneinput{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    margin-top: 20px;
+  }
+  label.verifyphonelabel{
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif
+  }
+  button.verifyphonebutton {
+    width: 150px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+    background-color: #05b138;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    border-radius: 8px;
+  }
+  
+  .verifyphonebutton:hover {
+    background-color: #00d33f;
+  }
+  
+
+  p {
+    margin-top: 10px;
+    color: #ff0000;
+  }
+   */
+
+
+   .verifyph-container {
+    width: 450px;
+    height: 260px;
+    /* max-width: 400px; */
+    /* margin: 0 auto; */
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.185);
+  }
+  
+  .verifyphoneform {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .verifyphonelabel {
+    margin-bottom: 10px;
+  }
+  
+  .verifyphoneinput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #acacac;
+    border-radius: 7px;
+  }
+  
+  .verifyphonebutton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0e6dbb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .message {
+    margin-top: 10px;
+    color: rgb(4, 167, 13);
+  }
+  
+  #verifyphone {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .loginviaotperrormessage{
+    margin-top: 15px;
+   
+  }
+  .loginviaotperrorpara{
+    font-size: 20px;
+    color: rgb(218, 20, 6);
+  }

@@ -1,0 +1,72 @@
+div.signincontainerdiv {
+    width: 520px;
+    height: 450px;
+   background-color: #fff;
+     /* margin-left: 10px; */
+   /* margin-top: 40px; */
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.336);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Form styling */
+h2.signinh2 {
+    margin-bottom: 30px;
+    color: #1bc21b;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+form.signinformcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form items horizontally */
+  }
+  
+label.signinlabel {
+    margin-bottom: 10px;
+    /* margin-left: 10px; */
+    font-size: 20px;
+    color: #383838;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  
+  .signincontainerdiv input[type="text"],
+  .signincontainerdiv input[type="password"] {
+    width: 110%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1.5px solid #aeaeae;
+    border-radius: 8px;
+    /* margin-left: 10px; */
+  }
+  .signincontainerdiv input:hover{
+    box-shadow: 2px 4px 4px rgba(63, 63, 63, 0.13);
+  }
+  button.signinbutton {
+    background-color: #00a808;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  
+  button.signinbutton [type="submit"]:hover {
+    background-color: #059c12;
+    box-shadow: 5px 10px 9px rgba(54, 54, 54, 0.185);
+    /* z-index: 2; */
+  }
+
+  .signinLinkdiv{
+    margin-top: 10px;
+  }

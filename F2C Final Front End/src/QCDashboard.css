@@ -1,0 +1,289 @@
+.qc-dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+
+}
+
+.qcleft-navigation {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px;
+ /* width: 80px; /* Adjust the width as needed */
+  min-width: 200px;
+  min-height: 100%; /* Ensure it takes the full height of the screen */
+  position: fixed; /* Position it as a fixed sidebar */
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1.5px solid #e7e7e7;
+}
+
+.qcleft-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+ 
+}
+
+.qcleft-navigation li {
+  /* border-top: 1px solid #545454; */
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid #d8d8d8; */
+}
+
+.qcleft-navigation button {
+width: 100%;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #787878;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.qcleft-navigation button:hover{
+  background-color: #cccccc;
+  color: #272727;
+ 
+}
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 240px; /* Ensure content doesn't overlap with the sidebar */
+  /* background-color: #f0f0f0;  */
+  position: relative;
+  /* top: 90px; */
+  /* left: 0; */
+  right: 40px;
+  /* margin-right: 120px; */
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+/* Add more styles as needed */
+ /* Styles for the top navigation bar */
+ .qctop-navigation {
+  background-color:#464646; /* Change to your desired background color */
+  /* Change to your desired text color */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2); */
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  z-index: 100;
+  border-bottom: 1.5px solid #e7e7e7;;
+   
+}
+
+.qctop-navigation h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+button.qcprofile-button {
+  background-color: #ffffff; /* Profile button background color */
+  color: #464646;; /* Profile button text color */
+  padding: 10px 20px;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.welcome-text {
+  color: #ffffff; /* Change to your desired text color */
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+  /* Styles for the blocks */
+  .blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .block {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .block:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+
+
+  /* Add this to your QCDashboard.css file */
+/* Add this to your QCDashboard.css file */
+.block {
+flex: 1;
+padding: 20px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+transition: transform 0.2s ease-in-out;
+overflow: auto; /* Enable scrolling for long news lists */
+}
+
+
+.block h2 {
+font-size: 1.5rem; /* Increase font size for block title if desired */
+margin-bottom: 15px; /* Add some space below the block title */
+}
+
+
+.block ul {
+list-style: none;
+padding: 0;
+}
+
+
+.block li {
+margin-bottom: 10px;
+}
+
+
+.block a {
+text-decoration: none;
+color: #007bff; /* Link color */
+}
+
+
+.block a:hover {
+text-decoration: underline;
+}
+
+
+
+
+
+
+/* Add this to your QCDashboard.css file */
+.search-filter {
+width: 100%;
+display: flex;
+position: relative;
+align-items: center;
+margin-bottom: 20px; /* Add spacing between header and search filter */
+margin-top: 20px;
+top:50px;
+}
+
+
+.search-input {
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+flex: 1;
+}
+
+
+.search-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 15px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+
+.search-button:hover {
+background-color: #0056b3;
+}
+
+
+.notification-icon {
+font-size: 1.5rem; /* Adjust the icon size as needed */
+color: #007bff; /* Set the icon color */
+margin-right: 20px; /* Add spacing between the icon and the profile button */
+}
+.qcleft-navigation .logo {
+width: 85px;
+height: 85px;
+/* margin-right: 10px; */
+}
+
+
+.qcleft-navigation
+.logo {
+position: absolute;
+top: 2px;
+left: 50px;
+
+}
+
+
+
+
+/* Add this to style the count container */
+.count-container {
+position: fixed;
+top: 80px; /* Adjust top position based on your layout */
+right: 20px; /* Adjust right position based on your layout */
+background-color: #cbd5e0; /* Background color of the count container */
+color: #fff; /* Text color of the counts */
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+
+.count-container p {
+margin: 5px 0;
+font-size: 14px; /* Adjust font size based on your preference */
+color: #0a0606;
+}
+
+
+
+
+/* Add this to your QCDashboard.css file */
+.pie-chart-container {
+margin-top: 60px;
+margin-left: 20px;/* Adjust the margin as needed */
+}
+
+
+
+
+
+
+
+
+.pie-chart-canvas {
+width: 300px;
+height: 150px;
+margin: 10 auto; /* Center the canvas horizontally */
+display: block; /* Remove any default inline styles */
+}
+
+

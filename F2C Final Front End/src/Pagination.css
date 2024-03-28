@@ -1,0 +1,16 @@
+.pagination-buttons {
+    display: flex;
+    align-items: center; /* Vertically align buttons in the middle */
+  }
+  
+  .pagination-buttons button {
+    margin: 0 5px; /* Add spacing between buttons */
+    display: inline-block;
+  }
+  
+  
+  
+  
+  
+  
+  

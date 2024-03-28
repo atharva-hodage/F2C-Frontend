@@ -1,0 +1,88 @@
+/* OTP verification form */
+.otp-verification-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .enterotpcontainer{
+    width: 480px;
+    height: 370px;
+    background-color: #ffff;
+    /* margin-left: 400px; */
+    /* margin-top: 110px; */
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* OTP input field */
+  .otp-input-field {
+    width: 105%;
+    padding: 10px;
+    margin-left: -20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  .enterotph2{  
+    margin-top: -50px;
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(0, 179, 9);
+  }
+ .enterotplabel{
+    margin-top: 10px;
+    /* margin-left: -110px; */
+    margin-left: -20px;
+    font-size: 17px;
+  font-weight: 600;
+  color: rgb(1, 116, 26);
+ }
+ .enterotp6digitlabel{
+  margin-top: 10px;
+  /* margin-left: -110px; */
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(1, 116, 26);
+ }
+/* .enterotplabel{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+} */
+
+  /* OTP verification button */
+  .otp-verification-button {
+    margin-top: 10px;
+    padding: 10px;
+    /* border: 1px solid #000; */
+    border-radius: 7px;
+    margin-left: -30px;
+    background-color: #009414;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Verification message */
+  .verification-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000;
+  }
+  
+  /* Success message */
+  .verification-message.success {
+    color: green;
+  }
+  
+  /* Error message */
+  .verification-message.error {
+    color: red;
+  }
+  

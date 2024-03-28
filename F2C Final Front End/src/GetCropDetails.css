@@ -1,0 +1,142 @@
+/* Global Styles */
+/* 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+} */
+
+/* CSS for Crop List Table */
+
+.getcropdetailstablecontainer {
+  /* margin-right: 20px; */
+  position: relative;
+  top:90px;
+  left: 0px;
+  width: 105%;
+  height: 90%;
+  overflow-y: scroll;
+}
+.getfarmerordertablecontainer{
+  position: relative;
+  top:70px;
+  /* left: 0px; */
+  right:50px;
+  width: 115%;
+  height: 90%;
+  overflow-y: scroll;
+}
+table.getcropdetailstable {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.getcropdetailstableh2 {
+  margin-left: 17px;
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(50, 169, 2);
+  /* position: sticky;
+  top: 0; */
+}
+
+thead.getcropdetailstablehead {
+  background-color: #d6d9db;
+  color: #f8f8f8;
+  position: sticky;
+  top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+thead.getcropdetailstablehead th {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 145, 5);
+  padding: 10px;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+tbody.getcropdetailstbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #585858;
+}
+tbody.getcropdetailstbody tr:nth-child(even) {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600; 
+  color: #616161;
+}
+
+tbody.getcropdetailstbody td {
+  padding: 15px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.verify {
+  background-color: rgb(0, 180, 0);
+  color: white;
+  font-weight: bold;
+}
+
+button.verify[disabled] {
+  background-color: lightgreen;
+  cursor: not-allowed;
+}
+
+button.publish {
+  /* background-color: rgb(242, 103, 103); */
+  color: white;
+  font-weight: bold;
+}
+
+button.publish[disabled] {
+  background-color: rgb(0, 189, 0);
+  cursor: not-allowed;
+}
+
+button.published {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+/* CSS for the "Add Crop" button */
+.add-crop-button {
+  float: right;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+.add-crop-button button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Clear the float for proper alignment */
+.table-header::after {
+  content: '';
+  display: table;
+  clear: both;
+}

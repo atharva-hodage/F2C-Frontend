@@ -1,0 +1,182 @@
+/* Rest of your CSS */
+/* Rest of your CSS */
+/* .crop-details-container {
+    margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between header and content */
+}
+
+.header h1 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.cart-button {
+  cursor: pointer;
+  color: #0fd41c;
+}
+
+.cart-container {
+    width: 800px;
+  /* height: 135%;  */
+  padding: 30px; /* Increase the padding as needed */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px; 
+  margin-bottom: 20px;
+  /* Center the cart container horizontally */
+  /* overflow: scroll;  */
+  height: auto;
+  overflow-y: auto;
+  position: relative;
+  top: 70px;
+  max-height: 100vh;
+  /* Hide any overflow outside the cart container */
+}
+
+/* Styling for the container that holds cart items */
+.cart-content {
+  max-height: 570px; /* Adjust as needed to limit the height and enable scrolling */
+  /* overflow-y: auto; Enable vertical scrolling if the content exceeds the max-height */
+}
+
+
+h1.h1consumercart{
+  font-size: 30px;
+  color: #0068c3;
+  font-weight: 800;
+
+  font-family: 'Poppins', sans-serif;
+}
+input.cart-checkbox {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+label.cart-checkboxlabel{
+  /* margin-left: 10px; */
+  color: #6e6e6e;
+  font-weight: 600;
+  color: #595959;
+}
+  /* Style for crop name */
+  .cart-item h2 {
+    font-size: 22px;
+    margin: 5px 0;
+    margin-bottom: 17px;
+    font-weight: 600;
+    color: #0180b7;
+  }
+  
+  .cart-item {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increase the padding to add more space */
+    margin: 20px 0; /* Increase the margin to add more space */
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(59, 59, 59, 0.265);
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  .cart-item p{
+    font-weight: 600;
+    color: #595959;
+  }
+  
+  /* Styling for the total price and total quantity */
+  .total-price {
+    color: #0040b7;
+    font-size: 20px;
+    font-weight: 600;
+   
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .total-quantity {
+    color: #0040b7;
+    font-size: 20px;
+    font-weight: 600;
+
+    font-family: 'Poppins', sans-serif;
+    /* margin-top: 5px; */
+  }
+  
+  /* Style for an empty cart message */
+  .empty-cart {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Loading message style */
+  .loading {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  /* Style for the checkboxes */
+
+  
+  .cart-item-buttons {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    margin-top: 20px;
+  }
+  
+  .view-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #00c2d8;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 5px; /* Add margin to create space between buttons */
+  }
+  
+  .view-button:hover,
+  .delete-button:hover {
+    background-color: #002fcb;
+  }
+  
+  .place-order-button {
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #0382dd;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 10px;
+  }
+  
+  .place-order-button:hover {
+    background-color: #0a1fda;
+  }
+  
+  .place-order-button:active {
+    background-color: #4b86e3;
+  }
+  

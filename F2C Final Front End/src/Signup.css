@@ -1,0 +1,52 @@
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .custom-dropdown::before {
+    content: "\f107"; /* Unicode character for a down arrow (you can replace with an actual down arrow icon) */
+    font-family: FontAwesome; /* You can use a different font or icon library */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  .custom-dropdown select:focus + ::before {
+    content: "\f106"; /* Unicode character for an up arrow when the select is focused */
+  }
+  
+  .custom-dropdown select[multiple] {
+    height: auto; /* Allow multiple options to be visible */
+    overflow-y: auto; /* Add a scrollbar if there are too many options */
+  }
+  
+  /* Style the dropdown options */
+  .custom-dropdown select option {
+    background: white;
+    color: #333;
+  }
+  
+  /* Style the dropdown options when hovered */
+  .custom-dropdown select option:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  /* Style the dropdown options when selected */
+  .custom-dropdown select option:checked {
+    background: #007bff;
+    color: white;
+  }

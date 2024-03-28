@@ -1,0 +1,33 @@
+
+
+
+/* CCViewQCList.css */
+.table-container {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table-container th, .table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-container th {
+    background-color: #4CAF50; /* Green for agriculture */
+    color: #fff; /* White text for contrast */
+  }
+  
+  .table-container tr:nth-child(odd) {
+    background-color: #E8F5E9; /* Light green for odd rows */
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #fff; /* White for even rows */
+  }
+  
+  .table-container tr:hover {
+    background-color: #C8E6C9; /* Hover color, slightly darker green */
+  }
+  

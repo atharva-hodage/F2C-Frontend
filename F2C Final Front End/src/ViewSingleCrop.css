@@ -1,0 +1,150 @@
+.viewsinglecrop-details-container {
+  width: 650px; /* Assign the desired width */
+  height: 120%;
+  /* margin-top: 80px;  */
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 80px;
+  /* overflow-y: scroll; */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header h1 {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.cart-button {
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  cursor: pointer;
+  color: #0fd41c;
+}
+
+.cart-button svg {
+  margin-right: 10px;
+}
+
+
+.crop-details-container p {
+  font-size: 18px;
+  color: #4e4e4e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.crop-details {
+  text-align: left;
+  margin-top: -15px;
+}
+
+.crop-details h2 {
+  font-size: 25px;
+  text-align: start;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.crop-details p {
+  font-size: 16px;
+  margin: 5px 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.image-container {
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.quantity-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+}
+
+.quantity-button {
+  background-color: #00c22a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.quantity-button:hover {
+  background-color: #00e41e;
+}
+
+div.button-container {
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.button {
+  background-color: #009f08;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #00dc16;
+}
+
+.button.addToCart {
+  background-color: #28a745;
+}
+
+.button.addToCart:hover {
+  background-color: #1e7e34;
+}
+
+.button.placeOrder {
+  background-color: #ffc107;
+}
+
+.button.placeOrder:hover {
+  background-color: #d39e00;
+}
+p.popupscreenparag{
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #1406d8;
+}
